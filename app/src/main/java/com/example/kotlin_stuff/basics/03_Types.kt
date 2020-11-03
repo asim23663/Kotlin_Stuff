@@ -23,4 +23,13 @@ fun main() {
     var boolean: Boolean = false
     var booleanTrue: Boolean = true
 
+
+    //Types conversion
+    print("Enter a number: ")
+    val num = readLine()!!.toInt() //Converting String into Integer
+    print("Enter second number: ")
+    val num2 = readLine()!!.toInt()
+
+    print("$num + $num2 = ${num + num2}") //${Expression}
+
 }
